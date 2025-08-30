@@ -17,11 +17,11 @@
 
         .neon-green-text {
             color: #4CFFB4;
-            /* Efeito de brilho reduzido, como solicitado */
+            /* Efeito de brilho reduzido */
             text-shadow:
-                0 0 3px #4CFFB4,
-                0 0 8px #4CFFB4,
-                0 0 15px #0fa;
+                0 0 2px #4CFFB4,
+                0 0 5px #4CFFB4,
+                0 0 10px #4CFFB4;
         }
         
         .neon-green-border {
@@ -34,7 +34,7 @@
              box-shadow: 0 0 8px #FF4747, 0 0 12px #FF4747 inset;
         }
 
-        /* Custom scrollbar for better aesthetics */
+        /* Custom scrollbar */
         ::-webkit-scrollbar {
             width: 8px;
         }
@@ -70,8 +70,8 @@
                 <h1 class="text-6xl sm:text-7xl md:text-9xl font-black tracking-tighter">
                     <span class="neon-green-text">RAVE</span>PASS
                 </h1>
-                <p class="mt-4 text-lg md:text-xl text-gray-300 max-w-lg mx-auto">
-                    O marketplace P2P para você comprar e vender ingressos de rave, com <span class="font-bold text-[#4CFFB4]">segurança total</span> e sem risco de golpes.
+                <p class="mt-4 text-lg md:text-xl text-gray-300 max-w-md mx-auto">
+                    Seu ingresso para a próxima rave, com <span class="font-bold text-[#4CFFB4]">segurança de verdade</span> e sem golpes.
                 </p>
             </div>
             <a href="#problem" class="absolute bottom-10 z-10 animate-bounce">
@@ -84,153 +84,124 @@
 
         <section id="problem" class="py-20 md:py-32">
             <div class="container mx-auto px-6 text-center">
-                <h2 class="text-4xl md:text-5xl font-bold">O Lado Sombrio da <span class="neon-green-text">Revenda</span></h2>
-                <p class="mt-4 text-gray-400 max-w-3xl mx-auto">Comprar ingressos de terceiros é um campo minado de golpes e frustrações. Compradores perdem dinheiro e vendedores ficam no prejuízo.</p>
+                <h2 class="text-4xl md:text-5xl font-bold">O Lado Sombrio da <span class="neon-green-text">Revenda P2P</span></h2>
+                <p class="mt-4 text-gray-400 max-w-3xl mx-auto">Comprar ingressos de terceiros é um campo minado de golpes e frustrações. Tanto compradores quanto vendedores perdem dinheiro e a paz de espírito.</p>
                 <div class="mt-16 grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
                     <div class="bg-black/30 p-8 rounded-2xl neon-red-border flex flex-col items-center">
                         <div class="mb-4">
                            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#FF4747" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"></path><line x1="12" y1="9" x2="12" y2="13"></line><line x1="12" y1="17" x2="12.01" y2="17"></line></svg>
                         </div>
                         <h3 class="text-2xl font-bold mb-2">Risco do Comprador</h3>
-                        <p class="text-gray-400">Pagar por um ingresso falso, nunca recebê-lo e ser barrado na entrada do evento dos sonhos.</p>
+                        <p class="text-gray-400">Pagar por um ingresso e nunca recebê-lo, ou pior, receber um ingresso falso e ser barrado na entrada do evento dos sonhos.</p>
                     </div>
                     <div class="bg-black/30 p-8 rounded-2xl neon-red-border flex flex-col items-center">
                         <div class="mb-4">
                              <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#FF4747" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"></path><line x1="12" y1="9" x2="12" y2="13"></line><line x1="12" y1="17" x2="12.01" y2="17"></line></svg>
                         </div>
                         <h3 class="text-2xl font-bold mb-2">Risco do Vendedor</h3>
-                        <p class="text-gray-400">Transferir o ingresso de boa fé e o comprador desaparecer sem pagar, deixando você no prejuízo.</p>
+                        <p class="text-gray-400">Transferir o ingresso de boa fé e o comprador simplesmente desaparecer sem realizar o pagamento, deixando você no prejuízo.</p>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section id="how-it-works" class="py-20 md:py-32 bg-black/20">
+        <section id="solution" class="py-20 md:py-32 bg-black/20">
             <div class="container mx-auto px-6 text-center">
-                <h2 class="text-4xl md:text-5xl font-bold">Nossa Solução: Transação <span class="neon-green-text">100% Segura</span></h2>
-                <p class="mt-4 text-gray-400 max-w-3xl mx-auto">Criamos um sistema de custódia (escrow) que protege compradores e vendedores do início ao fim. O dinheiro só é liberado quando o ingresso é validado.</p>
-                <div class="mt-16 max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-5 gap-8 text-center">
-                    <div class="flex flex-col items-center">
-                        <div class="w-16 h-16 bg-[#4CFFB4] rounded-full flex items-center justify-center text-black font-bold text-2xl border-4 border-gray-900">1</div>
-                        <h3 class="font-bold text-lg text-white mt-4">Pagamento em Custódia</h3>
-                        <p class="text-gray-400 text-sm">O comprador paga e o valor fica retido com segurança na RavePass.</p>
+                 <svg xmlns="http://www.w3.org/2000/svg" class="mx-auto mb-4" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#4CFFB4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect><path d="M7 11V7a5 5 0 0 1 10 0v4"></path></svg>
+                <h2 class="text-4xl md:text-5xl font-bold">Nossa Solução: <span class="neon-green-text">Segurança Total</span></h2>
+                <p class="mt-4 text-gray-400 max-w-3xl mx-auto">Criamos um sistema de custódia (escrow) que protege a transação do início ao fim. O dinheiro só é liberado quando o ingresso está seguro com o comprador.</p>
+                <div class="mt-16 max-w-lg mx-auto text-left">
+                    <div class="relative pl-8 sm:pl-12 py-4 group">
+                        <div class="absolute left-0 top-4 h-full border-l-2 border-dashed border-[#4CFFB4]"></div>
+                        <div class="absolute left-[-9px] sm:left-[-13px] top-4 w-6 h-6 bg-[#4CFFB4] rounded-full border-4 border-gray-900 flex items-center justify-center text-black font-bold text-xs">1</div>
+                        <h3 class="font-bold text-xl text-white">Comprador Paga na Plataforma</h3>
+                        <p class="text-gray-400">O pagamento é realizado e o valor fica retido com segurança pelo RavePass.</p>
                     </div>
-                     <div class="flex flex-col items-center">
-                        <div class="w-16 h-16 bg-[#4CFFB4] rounded-full flex items-center justify-center text-black font-bold text-2xl border-4 border-gray-900">2</div>
-                        <h3 class="font-bold text-lg text-white mt-4">Vendedor Transfere</h3>
-                        <p class="text-gray-400 text-sm">Notificado e seguro do pagamento, o vendedor envia o ingresso.</p>
+                     <div class="relative pl-8 sm:pl-12 py-4 group">
+                        <div class="absolute left-0 top-4 h-full border-l-2 border-dashed border-[#4CFFB4]"></div>
+                        <div class="absolute left-[-9px] sm:left-[-13px] top-4 w-6 h-6 bg-[#4CFFB4] rounded-full border-4 border-gray-900 flex items-center justify-center text-black font-bold text-xs">2</div>
+                        <h3 class="font-bold text-xl text-white">Vendedor Transfere o Ingresso</h3>
+                        <p class="text-gray-400">Com o pagamento garantido, o vendedor envia o ingresso para o comprador.</p>
                     </div>
-                     <div class="flex flex-col items-center">
-                        <div class="w-16 h-16 bg-[#4CFFB4] rounded-full flex items-center justify-center text-black font-bold text-2xl border-4 border-gray-900">3</div>
-                        <h3 class="font-bold text-lg text-white mt-4">Comprador Confirma</h3>
-                        <p class="text-gray-400 text-sm">O comprador valida o ingresso e confirma o recebimento na plataforma.</p>
+                     <div class="relative pl-8 sm:pl-12 py-4 group">
+                        <div class="absolute left-0 top-4 h-full border-l-2 border-dashed border-[#4CFFB4]"></div>
+                        <div class="absolute left-[-9px] sm:left-[-13px] top-4 w-6 h-6 bg-[#4CFFB4] rounded-full border-4 border-gray-900 flex items-center justify-center text-black font-bold text-xs">3</div>
+                        <h3 class="font-bold text-xl text-white">Comprador Confirma Recebimento</h3>
+                        <p class="text-gray-400">O comprador valida o ingresso e confirma que está tudo certo na plataforma.</p>
                     </div>
-                     <div class="flex flex-col items-center">
-                        <div class="w-16 h-16 bg-[#4CFFB4] rounded-full flex items-center justify-center text-black font-bold text-2xl border-4 border-gray-900">4</div>
-                        <h3 class="font-bold text-lg text-white mt-4">Pagamento Liberado</h3>
-                        <p class="text-gray-400 text-sm">A RavePass libera o valor para a carteira do vendedor. Transação concluída!</p>
-                    </div>
-                     <div class="flex flex-col items-center">
-                        <div class="w-16 h-16 bg-[#4CFFB4] rounded-full flex items-center justify-center text-black font-bold text-2xl border-4 border-gray-900">5</div>
-                        <h3 class="font-bold text-lg text-white mt-4">Avaliação Mútua</h3>
-                        <p class="text-gray-400 text-sm">Ambos se avaliam, construindo uma comunidade confiável.</p>
+                     <div class="relative pl-8 sm:pl-12 py-4 group">
+                        <div class="absolute left-[-9px] sm:left-[-13px] top-4 w-6 h-6 bg-[#4CFFB4] rounded-full border-4 border-gray-900 flex items-center justify-center text-black font-bold text-xs">4</div>
+                        <h3 class="font-bold text-xl text-white">Pagamento Liberado para o Vendedor</h3>
+                        <p class="text-gray-400">O RavePass libera o valor para a carteira do vendedor. Fim! Todos felizes.</p>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section id="advantages" class="py-20 md:py-32">
+        <section id="features" class="py-20 md:py-32">
             <div class="container mx-auto px-6 text-center">
-                <h2 class="text-4xl md:text-5xl font-bold">Sua Paz de Espírito é a <span class="neon-green-text">Nossa Prioridade</span></h2>
-                <p class="mt-4 text-gray-400 max-w-3xl mx-auto">Recursos pensados para garantir que sua única preocupação seja curtir a festa.</p>
-                <div class="mt-16 grid grid-cols-1 md:grid-cols-3 gap-8">
-                    <div class="bg-black/30 p-8 rounded-2xl neon-green-border text-left">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="mb-4" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#4CFFB4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
-                        <h3 class="text-2xl font-bold mb-2">Segurança com Escrow</h3>
-                        <p class="text-gray-400">Seu dinheiro fica protegido do início ao fim. Só liberamos o pagamento após você confirmar o recebimento do ingresso válido.</p>
-                    </div>
-                    <div class="bg-black/30 p-8 rounded-2xl neon-green-border text-left">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="mb-4" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#4CFFB4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
-                        <h3 class="text-2xl font-bold mb-2">Vendedores Verificados</h3>
-                        <p class="text-gray-400">Para anunciar, todos os vendedores passam por um processo de verificação de identidade. Mais confiança para suas compras.</p>
-                    </div>
-                    <div class="bg-black/30 p-8 rounded-2xl neon-green-border text-left">
-                         <svg xmlns="http://www.w3.org/2000/svg" class="mb-4" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#4CFFB4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path></svg>
-                        <h3 class="text-2xl font-bold mb-2">Suporte e Disputas</h3>
-                        <p class="text-gray-400">Deu algo errado? Nosso sistema de disputas permite a intervenção de um administrador para resolver o problema de forma justa.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section id="features" class="py-20 md:py-32 bg-black/20">
-            <div class="container mx-auto px-6 text-center">
-                <h2 class="text-4xl md:text-5xl font-bold">Feito para <span class="neon-green-text">Você</span></h2>
-                <p class="mt-4 text-gray-400 max-w-3xl mx-auto">Seja você quem compra ou quem vende, a RavePass garante a sua tranquilidade.</p>
+                <h2 class="text-4xl md:text-5xl font-bold">Um Ecossistema <span class="neon-green-text">Pensado em Você</span></h2>
+                <p class="mt-4 text-gray-400 max-w-3xl mx-auto">Seja para garantir seu lugar na festa ou para vender aquele ingresso que sobrou, o RavePass oferece as ferramentas certas.</p>
                  <div class="mt-16 grid md:grid-cols-2 gap-8 max-w-5xl mx-auto text-left">
                     <div class="bg-black/30 p-8 rounded-2xl neon-green-border">
                         <div class="flex items-center mb-4">
                              <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="#4CFFB4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path><line x1="3" y1="6" x2="21" y2="6"></line><path d="M16 10a4 4 0 0 1-8 0"></path></svg>
-                            <h3 class="text-2xl font-bold ml-3">Para o Comprador</h3>
+                            <h3 class="text-2xl font-bold ml-3">Para Compradores</h3>
                         </div>
                         <p class="text-gray-400 mb-6">Encontre o ingresso para sua próxima rave com total segurança e confiança.</p>
                         <ul class="space-y-3">
-                            <li class="flex items-start"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#4CFFB4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mt-1 flex-shrink-0"><polyline points="20 6 9 17 4 12"></polyline></svg><span class="ml-2 text-gray-300"><b>Pagamento Protegido:</b> Seu dinheiro seguro até a confirmação do ingresso.</span></li>
-                            <li class="flex items-start"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#4CFFB4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mt-1 flex-shrink-0"><polyline points="20 6 9 17 4 12"></polyline></svg><span class="ml-2 text-gray-300"><b>Busca com Filtros:</b> Encontre o que procura por evento, cidade ou preço.</span></li>
-                            <li class="flex items-start"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#4CFFB4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mt-1 flex-shrink-0"><polyline points="20 6 9 17 4 12"></polyline></svg><span class="ml-2 text-gray-300"><b>Análise de Vendedores:</b> Verifique a reputação e avaliações antes de comprar.</span></li>
-                            <li class="flex items-start"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#4CFFB4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mt-1 flex-shrink-0"><polyline points="20 6 9 17 4 12"></polyline></svg><span class="ml-2 text-gray-300"><b>Comunicação Direta:</b> Converse com o vendedor pelo chat para combinar a entrega.</span></li>
+                            <li class="flex items-center"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#4CFFB4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg><span class="ml-2 text-gray-300"><b>Compre sem medo:</b> Seu dinheiro fica protegido até você receber o ingresso.</span></li>
+                            <li class="flex items-center"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#4CFFB4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg><span class="ml-2 text-gray-300"><b>Vendedores Verificados:</b> Saiba de quem você está comprando através do nosso sistema de reputação.</span></li>
+                            <li class="flex items-center"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#4CFFB4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg><span class="ml-2 text-gray-300"><b>Comunicação Direta:</b> Converse com o vendedor pelo chat para combinar a entrega.</span></li>
+                            <li class="flex items-center"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#4CFFB4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg><span class="ml-2 text-gray-300"><b>Suporte Humano:</b> Se algo der errado, nossa equipe de suporte resolve para você.</span></li>
                         </ul>
                     </div>
                     <div class="bg-black/30 p-8 rounded-2xl neon-green-border">
                          <div class="flex items-center mb-4">
                              <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="#4CFFB4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
-                            <h3 class="text-2xl font-bold ml-3">Para o Vendedor</h3>
+                            <h3 class="text-2xl font-bold ml-3">Para Vendedores</h3>
                         </div>
-                        <p class="text-gray-400 mb-6">Venda seu ingresso extra de forma rápida, segura e com a certeza de que vai receber.</p>
+                        <p class="text-gray-400 mb-6">Venda seu ingresso extra de forma rápida, segura e sem medo de calotes.</p>
                          <ul class="space-y-3">
-                            <li class="flex items-start"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#4CFFB4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mt-1 flex-shrink-0"><polyline points="20 6 9 17 4 12"></polyline></svg><span class="ml-2 text-gray-300"><b>Verificação de Identidade:</b> Aumente a confiança dos compradores e venda mais rápido.</span></li>
-                            <li class="flex items-start"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#4CFFB4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mt-1 flex-shrink-0"><polyline points="20 6 9 17 4 12"></polyline></svg><span class="ml-2 text-gray-300"><b>Pagamento Garantido:</b> Anuncie com a certeza de que, após a venda, o dinheiro está garantido.</span></li>
-                            <li class="flex items-start"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#4CFFB4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mt-1 flex-shrink-0"><polyline points="20 6 9 17 4 12"></polyline></svg><span class="ml-2 text-gray-300"><b>Gerenciamento Simples:</b> Crie e gerencie seus anúncios de forma fácil e intuitiva.</span></li>
-                             <li class="flex items-start"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#4CFFB4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mt-1 flex-shrink-0"><polyline points="20 6 9 17 4 12"></polyline></svg><span class="ml-2 text-gray-300"><b>Recebimento na Carteira:</b> O valor cai na sua carteira RavePass assim que a venda é concluída.</span></li>
+                            <li class="flex items-center"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#4CFFB4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg><span class="ml-2 text-gray-300"><b>Venda sem calote:</b> O pagamento do comprador é garantido antes de você enviar o ingresso.</span></li>
+                            <li class="flex items-center"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#4CFFB4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg><span class="ml-2 text-gray-300"><b>Verificação de Identidade:</b> Aumente a confiança dos compradores e venda mais rápido.</span></li>
+                            <li class="flex items-center"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#4CFFB4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg><span class="ml-2 text-gray-300"><b>Gerenciamento Fácil:</b> Anuncie e gerencie suas vendas em um painel simples e intuitivo.</span></li>
+                            <li class="flex items-center"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#4CFFB4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg><span class="ml-2 text-gray-300"><b>Receba Rápido:</b> O dinheiro cai na sua carteira assim que o comprador confirma o recebimento.</span></li>
                         </ul>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section id="faq" class="py-20 md:py-32">
-            <div class="container mx-auto px-6 max-w-4xl">
-                <h2 class="text-4xl md:text-5xl font-bold text-center mb-12">Perguntas <span class="neon-green-text">Frequentes</span></h2>
-                <div class="space-y-4">
-                    <details class="bg-black/30 p-6 rounded-lg group" open>
-                        <summary class="font-bold text-lg cursor-pointer flex justify-between items-center">
-                            Como a RavePass garante que o ingresso é válido?
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-5 h-5 transition-transform duration-300 group-open:rotate-180"><polyline points="6 9 12 15 18 9"></polyline></svg>
-                        </summary>
-                        <p class="text-gray-400 mt-4">A segurança é construída sobre a confiança. Exigimos verificação de identidade dos vendedores para coibir fraudes. O comprador tem a responsabilidade de confirmar o recebimento e a validade do ingresso. Caso haja qualquer problema, nosso sistema de disputa com mediação de um administrador garante que o comprador seja reembolsado se o ingresso for inválido.</p>
-                    </details>
-                    <details class="bg-black/30 p-6 rounded-lg group">
-                        <summary class="font-bold text-lg cursor-pointer flex justify-between items-center">
-                            O que acontece se o vendedor não me enviar o ingresso?
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-5 h-5 transition-transform duration-300 group-open:rotate-180"><polyline points="6 9 12 15 18 9"></polyline></svg>
-                        </summary>
-                        <p class="text-gray-400 mt-4">Se o vendedor não enviar o ingresso dentro do prazo combinado, você pode abrir uma disputa na plataforma. Um de nossos administradores irá analisar o caso e, confirmada a falha do vendedor, seu pagamento será 100% estornado para sua carteira.</p>
-                    </details>
-                    <details class="bg-black/30 p-6 rounded-lg group">
-                        <summary class="font-bold text-lg cursor-pointer flex justify-between items-center">
-                            Quais são as taxas da RavePass?
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-5 h-5 transition-transform duration-300 group-open:rotate-180"><polyline points="6 9 12 15 18 9"></polyline></svg>
-                        </summary>
-                        <p class="text-gray-400 mt-4">Para manter a plataforma segura e funcionando, aplicamos uma pequena taxa de serviço sobre as transações. Uma taxa é cobrada do comprador no momento da compra e outra é descontada do vendedor no momento da venda. Todos os valores são exibidos de forma transparente antes de você confirmar a operação.</p>
-                    </details>
+        <section id="faq" class="py-20 md:py-32 bg-black/20">
+            <div class="container mx-auto px-6 text-center">
+                <h2 class="text-4xl md:text-5xl font-bold">Perguntas <span class="neon-green-text">Frequentes</span></h2>
+                <p class="mt-4 text-gray-400 max-w-3xl mx-auto">Tirando as principais dúvidas para você negociar com tranquilidade.</p>
+                <div class="mt-16 max-w-3xl mx-auto text-left space-y-6">
+                    <div>
+                        <h3 class="font-bold text-xl text-white">É realmente seguro usar o RavePass?</h3>
+                        <p class="text-gray-400 mt-2">Sim! Essa é a nossa principal missão. Com nosso sistema de custódia (escrow), o vendedor só recebe o dinheiro depois que o comprador confirma o recebimento do ingresso válido. Isso elimina o risco de golpes para ambos os lados.</p>
+                    </div>
+                    <div>
+                        <h3 class="font-bold text-xl text-white">Como faço para me tornar um vendedor?</h3>
+                        <p class="text-gray-400 mt-2">Para garantir a segurança da comunidade, todos os vendedores passam por um processo de verificação de identidade. Você precisará enviar fotos do seu documento e uma selfie. É um processo rápido que garante a confiança de todos na plataforma.</p>
+                    </div>
+                    <div>
+                        <h3 class="font-bold text-xl text-white">Quais são as taxas da plataforma?</h3>
+                        <p class="text-gray-400 mt-2">O RavePass cobra uma pequena taxa de serviço sobre cada transação, tanto do comprador quanto do vendedor. Essa taxa é o que nos permite manter a plataforma segura, oferecer suporte e continuar desenvolvendo novas funcionalidades para a comunidade.</p>
+                    </div>
+                     <div>
+                        <h3 class="font-bold text-xl text-white">O que acontece se eu tiver um problema com a compra?</h3>
+                        <p class="text-gray-400 mt-2">Se o vendedor não enviar o ingresso ou se houver qualquer outro problema, o comprador pode abrir uma "disputa". Nossa equipe de administradores irá analisar o caso, verificar as conversas e tomar a decisão justa, seja reembolsando o comprador ou liberando o pagamento para o vendedor.</p>
+                    </div>
                 </div>
             </div>
         </section>
 
-        <section id="cta" class="py-20 md:py-32 bg-black/20">
+        <section id="cta" class="py-20 md:py-32">
             <div class="container mx-auto px-6 text-center">
-                <h2 class="text-4xl md:text-5xl font-bold">Pronto para a Próxima <span class="neon-green-text">Rave?</span></h2>
-                <p class="mt-4 text-gray-400 max-w-2xl mx-auto">Compre ou venda seu ingresso com a segurança e a tranquilidade que só a RavePass oferece. Chega de perrengue!</p>
+                <h2 class="text-4xl md:text-5xl font-bold">Pronto para a sua próxima <span class="neon-green-text">Rave</span>?</h2>
+                <p class="mt-4 text-gray-400 max-w-2xl mx-auto">Chega de perrengue na hora de comprar ou vender ingressos. Faça parte de uma comunidade que se respeita e curta o rolê sem preocupações.</p>
                 <div class="mt-8">
                     <a href="#" class="bg-[#4CFFB4] text-black font-bold py-4 px-8 rounded-lg hover:bg-white transition-colors duration-300 text-lg">
                         Acessar a Plataforma Agora
